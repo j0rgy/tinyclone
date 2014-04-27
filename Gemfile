@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in tinyclone.gemspec
-gemspec
-
 gem 'sinatra'
 # gem 'rubygems'
 gem 'haml'
@@ -11,3 +8,4 @@ gem 'rest_client'
 gem 'data_mapper'
 gem 'xml-simple'
 gem 'dm-postgres-adapter', :group => :production
+gem 'dm-mysql-adapter', :group => :development

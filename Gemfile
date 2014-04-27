@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-# gem 'rubygems'
 gem 'haml'
-# gem 'uri'
+gem 'unicorn'
 gem 'rest_client'
 gem 'data_mapper'
 gem 'xml-simple'

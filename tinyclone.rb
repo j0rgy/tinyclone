@@ -255,11 +255,11 @@ __END__
     %code= @link.url.original
     has been shortened to
     %a{:href => "/#{@link.identifier}"}
-      = "http://tinyclone.saush.com/#{@link.identifier}"
+      = "http://tinyclonej0rg.herokuapp.com/#{@link.identifier}"
     %br
     Go to
     %a{:href => "/info/#{@link.identifier}"}
-      = "http://tinyclone.saush.com/info/#{@link.identifier}"
+      = "http://tinyclonej0rg.herokuapp.com/info/#{@link.identifier}"
     to get more information about this link.
 
 -# = If there's an error, display the error    
@@ -272,7 +272,7 @@ __END__
   %input{:type => 'text', :name => 'original', :size => '70'}
   %input{:type => 'submit', :value => 'now!'}
   %br
-  to http://tinyclone.saush.com/
+  to http://tinyclonej0rg.herokuapp.com/
   %input{:type => 'text', :name => 'custom', :size => '20'}
   (optional)
 %p
@@ -291,7 +291,7 @@ __END__
 .span-3 Shortened
 .span-21.last
   %a{:href => "/#{@link.identifier}"}
-    = "http://tinyclone.saush.com/#{@link.identifier}"
+    = "http://tinyclonej0rg.herokuapp.com/#{@link.identifier}"
 .span-3 Date created
 .span-21.last= @link.created_at
 .span-3 Number of visits

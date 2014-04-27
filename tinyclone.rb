@@ -229,7 +229,6 @@ class Visit
 end
 
 DataMapper.finalize.auto_upgrade!
-DataMapper.auto_migrate!
 
 __END__
 
